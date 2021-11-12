@@ -19,6 +19,12 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'com.h2database:h2'
+	runtimeOnly 'org.postgresql:postgresql'
+	implementation 'org.springframework.boot:spring-boot-starter-actuator'
+
+	
+
+    implementation 'org.springdoc:springdoc-openapi-ui:1.5.12'
 	// tag::tests[]
 
 	testImplementation('org.springframework.boot:spring-boot-starter-test')
